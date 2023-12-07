@@ -1,6 +1,6 @@
 {
-  "name": "camera-controls",
-  "version": "0.0.0-semantic-release",
+  "name": "@srinivasprabhu/camera-controls",
+  "version": "1.0.0",
   "author": "Yomotsu",
   "license": "MIT",
   "main": "dist/camera-controls.js",
@@ -10,7 +10,10 @@
   "files": [
     "dist"
   ],
-  "repository": "yomotsu/camera-controls",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SrinivasPrabhu794/camera-controls.git"
+  },
   "devDependencies": {
     "@rollup/plugin-replace": "^5.0.2",
     "@rollup/plugin-typescript": "^11.1.3",
