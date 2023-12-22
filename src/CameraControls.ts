@@ -1194,7 +1194,7 @@ export class CameraControls extends EventDispatcher {
 
 				} else {
 
-					const TOUCH_ZOOM_FACTOR = 6.25;
+					const TOUCH_ZOOM_FACTOR = 8.0;
 					this._zoomInternal( TOUCH_ZOOM_FACTOR * dollyDelta * TOUCH_DOLLY_FACTOR, dollyX, dollyY );
 					this._isUserControllingZoom = true;
 
